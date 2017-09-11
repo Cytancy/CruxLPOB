@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang='en' >
+	<head>
+		<meta name='viewport' content='width=device-width, initial-scale=1'>
+		<meta name="Content-type" content="text/html; charset=UTF-8">
+		<meta charset="utf-8"/>
+
+		<title>CRUX</title>
+
+		<link rel='stylesheet' href='assets/css/main.css'>
+		<link rel='stylesheet' href='//cdn.materialdesignicons.com/1.9.32/css/materialdesignicons.min.css'>
+
+		<link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicon/apple-touch-icon.png">
+		<link rel="icon" type="image/png" href="assets/img/favicon/favicon-32x32.png" sizes="32x32">
+		<link rel="icon" type="image/png" href="assets/img/favicon/favicon-16x16.png" sizes="16x16">
+		<link rel="manifest" href="assets/img/favicon/manifest.json">
+		<link rel="mask-icon" href="assets/img/favicon/safari-pinned-tab.svg" color="#5bbad5">
+		<link rel="shortcut icon" href="assets/img/favicon/favicon.ico">
+		<meta name="msapplication-config" content="assets/img/favicon/browserconfig.xml">
+		<meta name="theme-color" content="#ffffff">
+		<meta property="og:title" content="Crux: Making Data Delightful"/>
+		<meta property="og:image" content="https://www.cruxinformatics.com/landing/assets/img/meta-logo.png"/>
+		<meta property="og:description" content="Data is hard. Before we can get to the good part, we end up having to deal with messiness, inconsistency, redundancy, and storage issues. Find out how we at Crux are making it easier."/>
+		<meta property="og:url" content="https://www.cruxinformatics.com" />
+		<script>
+			window.heap = window.heap || [], heap.load = function (e, t) {
+				window.heap.appid = e, window.heap.config = t = t || {};
+				var r = t.forceSSL || "https:" === document.location.protocol, a = document.createElement("script");
+				a.type = "text/javascript", a.async = !0, a.src = (r ? "https:" : "http:") + "//cdn.heapanalytics.com/js/heap-" + e + ".js";
+				var n = document.getElementsByTagName("script")[0];
+				n.parentNode.insertBefore(a, n);
+				for (var o = function (e) {
+					return function () {
+						heap.push([e].concat(Array.prototype.slice.call(arguments, 0)))
+					}
+				}, p = ["addEventProperties", "addUserProperties", "clearEventProperties", "identify", "removeEventProperty", "setEventProperties", "track", "unsetEventProperty"], c = 0; c < p.length; c++)heap[p[c]] = o(p[c])
+			};
+			heap.load("1980742798");
+		</script>
+	</head>
+
+	<body>
+		<div class='clc-main'>
+			<div class='clc-slide clc-slide-a'>
+				<div class='clc-slide-a-content'>
+					<div class='clc-slide-a-content-background'>
+						<video class='clc-slide-a-content-background-video' playsinline muted loop>
+							<source src="assets/video/background.mp4" type="video/mp4">
+						</video>
+					</div>
+					<svg class='clc-slide-a-logo' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 627.456 150.047">
+						<g>
+							<path class='clc-slide-a-logo-c' d="M245,345a75,75,0,1,1,53.033-128.033l-25.456,25.456a39,39,0,1,0,0,55.154l25.456,25.456A74.51,74.51,0,0,1,245,345Z" transform="translate(-170 -194.992)"/>
+							<path class='clc-slide-a-logo-r' d="M451.5,248.252a53.024,53.024,0,0,0-53.208-53.212l-66.12-.048-.33,149.968,36,.079.1-43.527,18.395.013L410.346,345h41.123v-.006L423.84,294.972A53.33,53.33,0,0,0,451.5,248.252Zm-83.407-17.234,30.186.022A17.034,17.034,0,0,1,415.5,248.252a17.268,17.268,0,0,1-17.208,17.282l-30.275-.022Z" transform="translate(-170 -194.992)"/>
+							<path class='clc-slide-a-logo-u' d="M550,345c-41.569,0-64-33-64-64.042V195h36v85.958c0,9.7,5.852,28.042,28,28.042,8.944,0,16.01-2.908,21-8.642a29.849,29.849,0,0,0,7-19.4V195h36v85.958a66.325,66.325,0,0,1-15.845,43.036C586.365,337.54,569.263,345,550,345Z" transform="translate(-170 -194.992)"/>
+						</g>
+						<g class='clc-slide-a-logo-x'>
+							<rect x="704.5" y="181.996" width="36" height="176.007" transform="translate(-149.303 394.974) rotate(-45)" style="fill: #ed1c24"/>
+							<rect x="634.496" y="252" width="176.007" height="36" transform="translate(-149.303 394.974) rotate(-45)" style="fill: #ed1c24"/>
+						</g>
+					</svg>
+					<div class='clc-slide-a-tagline'>
+						<div class='clc-slide-a-tagline-item clc-slide-a-tagline-item-2'>MAKING DATA DELIGHTFUL</div>
+					</div>
+ 					<div class='clc-slide-a-top-buttons'>
+	 					<div class='clc-slide-a-signup-button'>
+							<svg class='clc-slide-a-signup-button-outline' viewBox='0 0 170 44'>
+								<rect class='clc-slide-a-signup-button-outline-line' x='.5' y='.5' width='169' height='43'/>
+							</svg>
+							<div class='clc-slide-a-signup-button-background'></div>
+							<div class='clc-slide-a-signup-button-text'>SIGN UP</div>
+						</div>
+						<div class='clc-slide-a-signin-button'>
+							<svg class='clc-slide-a-signin-button-outline' viewBox='0 0 170 44'>
+								<rect class='clc-slide-a-signin-button-outline-line' x='.5' y='.5' width='169' height='43'/>
+							</svg>
+							<div class='clc-slide-a-signin-button-background'></div>
+							<div class='clc-slide-a-signin-button-text'>LOG IN</div>
+						</div>
+					</div>
+				</div>
+				<div class='clc-slide-a-cover-b'>
+					<div class='clc-slide-a-cover-b-content'>
+						<svg class='clc-slide-a-cover-b-logo' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 627.456 150.047">
+							<g>
+								<path class='clc-slide-a-cover-b-logo-c' d="M245,345a75,75,0,1,1,53.033-128.033l-25.456,25.456a39,39,0,1,0,0,55.154l25.456,25.456A74.51,74.51,0,0,1,245,345Z" transform="translate(-170 -194.992)"/>
+								<path class='clc-slide-a-cover-b-logo-r' d="M451.5,248.252a53.024,53.024,0,0,0-53.208-53.212l-66.12-.048-.33,149.968,36,.079.1-43.527,18.395.013L410.346,345h41.123v-.006L423.84,294.972A53.33,53.33,0,0,0,451.5,248.252Zm-83.407-17.234,30.186.022A17.034,17.034,0,0,1,415.5,248.252a17.268,17.268,0,0,1-17.208,17.282l-30.275-.022Z" transform="translate(-170 -194.992)"/>
+								<path class='clc-slide-a-cover-b-logo-u' d="M550,345c-41.569,0-64-33-64-64.042V195h36v85.958c0,9.7,5.852,28.042,28,28.042,8.944,0,16.01-2.908,21-8.642a29.849,29.849,0,0,0,7-19.4V195h36v85.958a66.325,66.325,0,0,1-15.845,43.036C586.365,337.54,569.263,345,550,345Z" transform="translate(-170 -194.992)"/>
+							</g>
+							<g class='clc-slide-a-cover-b-logo-x'>
+								<rect x="704.5" y="181.996" width="36" height="176.007" transform="translate(-149.303 394.974) rotate(-45)" style="fill: #ed1c24"/>
+								<rect x="634.496" y="252" width="176.007" height="36" transform="translate(-149.303 394.974) rotate(-45)" style="fill: #ed1c24"/>
+							</g>
+						</svg>
+					</div>
+				</div>
+				<div class='clc-slide-a-footer'>
+					<div class='clc-slide-a-footer-button'>
+						<div class='clc-slide-a-footer-button-text'><i class='mdi mdi-arrow-down-thick'></i>LEARN MORE</div>
+						<div class='clc-slide-a-footer-button-edge'></div>
+					</div>
+				</div>
+				<div class='clc-slide-a-cover-a'>
+					<div class='clc-slide-a-cover-a-content'>
+						<svg version='1.1' class='clc-slide-a-cover-a-logo' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' viewBox='0 0 627.5 150' >
+							<g class='clc-slide-a-cover-a-logo-x'>
+								<rect class='clc-slide-a-cover-a-logo-x-a' x='534.5' y='-13' transform='matrix(0.7071 -0.7071 0.7071 0.7071 108.7905 412.6435)' class='st0' width='36' height='176'/>
+								<rect class='clc-slide-a-cover-a-logo-x-b' x='464.5' y='57' transform='matrix(0.7071 -0.7071 0.7071 0.7071 108.7905 412.6435)' class='st0' width='176' height='36'/>
+							</g>
+						</svg>	
+						<svg class="clc-slide-a-cover-a-lines" viewBox="0 0 1600 900">
+							<path class="clc-slide-a-cover-a-line-a" d="M304,252.00000000000003 C303.53,241.88,303.21,235.14,304.00,234.00,305.68,231.58,347.67,214.67,352.00,216.00,363.93,219.65,485.14,382.85,480.00,396.00,474.17,410.93,238.66,457.49,224.00,450.00,208.75,442.21,106.41,213.96,112.00,198.00,116.95,183.87,301.91,90.57,320.00,90.00,358.80,88.78,907.22,341.64,938.69,363.20,949.75,370.77,1035.56,460.00,1043.63,468.14,1060.95,485.62,1320.58,766.93,1344.00,774.00,1354.05,777.04,1468.01,753.89,1472.00,747.00,1475.36,741.19,1445.70,651.06,1440.00,648.00,1434.48,645.04,1346.45,669.79,1344.00,675.00,1342.75,677.66,1358.09,709.76,1360.00,711.00,1360.99,711.64,1367.00,711.39,1376.00,711.00" style="stroke-dasharray: 1e-05px, 2725.75px; stroke-width: 0px; stroke-dashoffset: -2715.75;"></path>
+							<path class="clc-slide-a-cover-a-line-b" d="M304,648 C303.53,658.12,303.21,664.86,304.00,666.00,305.68,668.42,347.67,685.33,352.00,684.00,363.93,680.35,485.14,517.15,480.00,504.00,474.17,489.07,238.66,442.51,224.00,450.00,208.75,457.79,106.41,686.04,112.00,702.00,116.95,716.13,301.66,810.24,320.00,810.00,360.48,809.48,906.88,492.08,938.69,468.14,949.59,459.94,1035.34,370.58,1043.63,363.20,1060.14,348.52,1322.63,131.01,1344.00,126.00,1353.88,123.68,1468.01,146.11,1472.00,153.00,1475.36,158.81,1445.70,248.94,1440.00,252.00,1434.48,254.96,1346.45,230.21,1344.00,225.00,1342.75,222.34,1358.09,190.24,1360.00,189.00,1360.99,188.36,1367.00,188.61,1376.00,189.00" style="stroke-dasharray: 1e-05px, 2710.3px; stroke-width: 0px; stroke-dashoffset: -2700.3;"></path>
+						</svg>
+					</div>
+				</div>
+			</div>
+
+			<div class='clc-slide clc-slide-b'>
+				<svg version='1.1' class='clc-slide-b-cloud clc-slide-b-cloud-a' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' viewBox='0 0 305.7 158.4'>
+					<path class='clc-slide-b-cloud-shading' d='M279.4,158.4c14.5,0,26.3-11.8,26.3-26.3c0-14.5-11.8-26.3-26.3-26.3c-3.6,0-7,0.7-10.1,2
+						c-4.8-16.5-20-28.6-38-28.6c-2.5,0-4.8,0.2-7.2,0.7c0-0.2,0-0.4,0-0.7c0-43.7-35.5-79.2-79.2-79.2C111,0,82,21.4,70.8,51.4
+						C65.7,49.8,60.3,49,54.7,49C24.5,49,0,73.5,0,103.7s24.5,54.7,54.7,54.7H279.4z'/>
+					<path class='clc-slide-b-cloud-body' d='M79.5,73.9C79.8,51.3,93.6,30,113,18.4c19.4-11.6,44.2-13.2,65.4-5.4c11.2,4.1,21.4,10.7,30,18.9
+						C194,12.6,171,0,144.9,0C111,0,82,21.4,70.8,51.4C65.7,49.8,60.3,49,54.7,49c-21,0-39.3,11.9-48.4,29.3
+						c5.4-7.5,12.9-13.4,21.6-16.7C45.4,55,66.7,60.1,79.5,73.9z'/>
+					<path class='clc-slide-b-cloud-body' d='M305.7,132.1c0-14.5-11.8-26.3-26.3-26.3c-3.6,0-7,0.7-10.1,2c-4.8-16.5-20-28.6-38-28.6
+						c-1.6,0-3.2,0.1-4.7,0.3c-9.1,3.3-17.2,9.6-22.3,17.9c10.3-7.8,24.4-9.6,36.7-5.4c12.2,4.2,22.1,14.8,25.5,27.3
+						c6.2-4.8,14.8-4.7,22-1.5c7.1,3.3,12.3,10.3,13.8,18c0.6,3.1,0.6,6.4,0,9.5C304.4,141.4,305.7,136.9,305.7,132.1z'/>
+					<path class='clc-slide-b-cloud-body' d='M115,74c-8.4-10.4-23.4-14.9-36.1-10.8c-12.7,4.1-22.3,16.6-23,29.9c6.2-9.2,15.5-14.7,26-18.5
+						C92.3,70.8,104.3,70.9,115,74z'/>
+					<path class='clc-slide-b-cloud-body' d='M217.7,112.2c1-9.3-4.2-18.9-12.5-23.2c-8.3-4.3-19.2-2.8-26.1,3.4c7.6-1.5,14.9,0.4,22,3.7
+						C208.1,99.5,214,105.4,217.7,112.2z'/>
+				</svg>
+				<svg version='1.1' class='clc-slide-b-cloud clc-slide-b-cloud-b' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' viewBox='0 0 305.7 158.4'>
+					<path class='clc-slide-b-cloud-body' d='M259,94.8c-0.2,0-0.4,0-0.5,0c-2.3-11.5-12.1-20.3-24.1-21.2c-4.2-20-21.9-35.1-43.2-35.1
+						c-3.5,0-7,0.4-10.3,1.2C171.6,16.5,148.8,0,122.1,0c-16.9,0-32.3,6.6-43.7,17.5c-3.6-1.6-7.5-2.4-11.7-2.4
+						c-14.4,0-26.3,10.4-28.8,24C16.5,42,0,60.4,0,82.7c0,24.4,19.8,44.1,44.1,44.1H259c8.8,0,16-7.2,16-16C275,102,267.9,94.8,259,94.8
+						z'/>
+					<path class='clc-slide-b-cloud-shading' d='M103.2,30.1c-3.9-5.3-11.3-7.8-17.6-5.9C79.3,26,74.4,32,73.8,38.5c3.2-4.4,7.9-7,13.1-8.7
+						C92.1,28.2,98,28.4,103.2,30.1z'/>
+					<path class='clc-slide-b-cloud-shading' d='M80.4,30.8c10.8-16.5,29.4-24.5,49.1-22.9c14.6,1.1,28.5,6.8,41,14.6C158.8,8.7,141.5,0,122.1,0
+						c-16.9,0-32.3,6.6-43.7,17.5c-3.6-1.6-7.5-2.4-11.7-2.4c-9.6,0-18,4.6-23.4,11.7c3.6-2.6,7.8-4.3,12.2-4.9
+						C64.6,20.5,74.2,24,80.4,30.8z'/>
+					<path class='clc-slide-b-cloud-shading' d='M206.2,51.6c8.2,4,14.6,12.2,15.1,21.4c-8.5-1.7-18.3,1.2-24.8,7c6.5-3.9,13.6-3.6,21.1-2.3
+						c7.5,1.3,14.4,5.4,19.3,11.3c-1-3.4-2.8-7.4-4.8-10.3c10,0.4,19,4.7,25.2,12.2c-3.5-9.5-12.4-16.5-23-17.3
+						c-4.2-20-21.9-35.1-43.2-35.1c-3.5,0-7,0.4-10.3,1.2c-0.1-0.2-0.2-0.4-0.3-0.6c-10.2,4.9-19.4,11.8-26.7,20.4
+						c8-4.5,16.5-8.3,25.5-10.3C188.3,47.3,198,47.6,206.2,51.6z'/>
+				</svg>
+				<svg version='1.1' class='clc-slide-b-cloud clc-slide-b-cloud-c' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' viewBox='0 0 305.7 158.4'>
+					<path class='clc-slide-b-cloud-body' d='M116.4,136.1c11.7,7.8,25.8,12.3,41,12.3c14,0,27.1-3.9,38.2-10.6c8.5,6.6,19.1,10.6,30.7,10.6
+						c8.5,0,16.5-2.1,23.6-5.9c5.6,3.7,12.4,5.9,19.7,5.9c19.7,0,35.6-16,35.6-35.6c0-19.1-15-34.7-33.9-35.6
+						c-7.9-16.5-24.6-28-44.1-28.3C216.8,20.4,189.5,0,157.4,0c-31.3,0-58.1,19.4-69,46.9c-1.7-0.2-3.4-0.3-5.2-0.3
+						C59.7,46.6,40,62.4,34.1,84c-0.6,0-1.2-0.1-1.8-0.1C14.4,83.9,0,98.4,0,116.2c0,17.8,14.4,32.2,32.2,32.2c8.6,0,16.4-3.4,22.2-8.9
+						c8.2,5.6,18.1,8.9,28.7,8.9C95.9,148.4,107.5,143.8,116.4,136.1z'/>
+					<path class='clc-slide-b-cloud-shading' d='M121.1,64.8c-6.4-8-17.9-11.4-27.6-8.3c-9.7,3.1-17,12.6-17.5,22.8c4.7-7,11.9-11.2,19.8-14.1
+						C103.8,62.4,112.9,62.4,121.1,64.8z'/>
+					<path class='clc-slide-b-cloud-shading' d='M187.7,6.5C178.4,2.3,168.2,0,157.4,0c-31.3,0-58.1,19.4-69,46.9c-1.7-0.2-3.4-0.3-5.2-0.3
+						C59.7,46.6,40,62.4,34.1,84c-0.6,0-1.2-0.1-1.8-0.1c-12.2,0-22.7,6.7-28.2,16.6c2.6-2.7,5.7-4.9,9.2-6.3c8.2-3.5,18.5-2.3,24.7,4
+						c2.2-12.7,9.4-23.5,20-31c10.5-7.5,24-10.7,36.8-8.7c6.3-21.8,23.6-40.4,44.6-49C154.6,3.2,171.8,2.3,187.7,6.5z'/>
+					<path class='clc-slide-b-cloud-shading' d='M301.3,96.6c-5.7-11-16.9-18.7-30-19.4c-7.9-16.4-24.5-27.9-43.8-28.3c-12.7,3.3-24.5,10.2-33.3,20
+						c9.7-7.4,22.3-9.6,34.3-7.6c12,2,23.2,9.1,30,19.2c10.3-1.7,21.6,1.3,30.7,6.4C293.7,89.4,297.8,92.7,301.3,96.6z'/>
+				</svg>
+				<svg version='1.1' class='clc-slide-b-graphic' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' viewBox='0 0 1600 960'>
+					<g class='clc-slide-b-graphic-mountain'>
+						<polygon points='1600,313.8 1596.8,305.3 1593.8,260.3 1556.3,226.8 1503.8,147.3 1463.3,187.8 1428.8,188.8 
+							1272.8,396.3 1221.3,389.3 1176.8,405.8 1131.4,468.9 1045,538 977,573.5 942,590.5 858,634.5 796.2,657.8 735.5,742.2 
+							639.5,834.2 487,889.7 96,960 1600,960.5 	'/>
+					</g>
+					<g class='clc-slide-b-graphic-mountain-shading'>
+						<polyline points='1418.8,224.8 1363.8,321.8 1388.8,297.8 1419.8,298.8 1466.8,239.8 1496.8,266.8 1247.8,470.8 
+							1185.1,572.8 1237.8,526.2 1217.8,586.2 1057.1,777.5 690.4,865.5 999.1,777.5 1027.1,716.8 1095.1,688.2 1148.4,616.8 
+							1142.4,576.8 1267.4,412.7 1274.1,395.8 1221.6,389.2 1208.8,414.5 1177.5,405.6 1148.8,474.5 1087.4,506.5 1066.1,522.5 
+							1039.4,583.8 1039.4,619.8 988.8,643.8 955.4,749.2 467.4,930.5 586.1,865.2 81.8,968.3 883.4,971.8 1183.4,731.8 1352.8,646.5 
+							1059.8,880.1 1281.8,870.1 994.3,959.8 1600.8,960.3 1610.8,825.1 1586.3,798.1 1605.8,807.1 1607.3,609.6 1571.3,544.1 
+							1607.3,571.6 1603.8,385.1 1557.3,327.6 1574.3,284.6 1534.8,238.6 1503.8,147.6 1470.6,205.4 	'/>
+					</g>
+					<g class='clc-slide-b-graphic-rock'>
+						<polygon points='977.1,490.1 1071.9,400.4 1072.8,378.9 1068.4,372.1 1037.1,373.1 1022.6,359.9 1008.9,359.4 
+							996.8,368.6 978.4,362.6 975.6,364.3 961.9,378.6 928.8,429.3 934.3,447.3 930.8,459.9 935.6,485.1 952.4,485.1 952.1,488.9 	'/>
+					</g>
+					<g class='clc-slide-b-graphic-rock-shading'>
+						<polygon points='978.4,362.6 992.8,372.3 996.8,368.6 	'/>
+						<polygon points='1008.9,359.4 1026.6,369.4 1032.4,389.2 993.2,437.7 1036.8,390.1 1050.5,385.9 1049.5,393 
+							1068.4,372.1 1037.1,373.1 1022.6,359.9 	'/>
+						<polygon points='1072.5,384.7 1063.4,399.4 1070.2,393.9 1066.1,405.9 1071.9,400.4 	'/>
+						<polygon points='935.6,485.1 986.1,459.8 952.4,485.1 	'/>
+						<polygon points='952.1,488.9 976,486.1 999.1,469.3 977.1,490.1 	'/>
+						<path d='M992.8,372.3c0,0,18-7.8,18-7.6c0,0.2-10.3,1.1-10.3,1.1l-3.7,2.8L992.8,372.3z'/>
+					</g>
+					<g class='clc-slide-b-graphic-man'>
+						<path d='M1030.8,538.5l3.5-0.3l1.7-43.8l-24.2-6.7l15.8-35.2l6.7-6.8l0.8-11.5l-10.3,10.3l-11,7l-8.7-0.3l-20,15.3
+							l-29.7,9.3l0.7,3.5l32.7-1.7l-7,21l-0.5,39.8c0,0-5.3,8.8-13.7,28.5h3.7l21.8-29l11.7-31.5l21.5,0.8L1030.8,538.5z'/>
+					</g>
+					<g class='clc-slide-b-graphic-man-shading'>
+						<polygon points='1003.4,507.9 988.1,508.8 983.9,538.9 969.1,567 971.3,567 993.1,538 	'/>
+						<polygon points='988.8,477.7 991.4,477.7 982.3,497.1 	'/>
+					</g>
+					<g class='clc-slide-b-graphic-man-shoes'>
+						<polygon points='1033.2,544.2 1032.8,540.2 1035.8,538.5 1044.9,538.5 	'/>
+						<polygon points='966,571.7 971.6,568.4 974,571.9 978.8,572.5 974.4,575.2 967.4,573.3 	'/>
+					</g>
+					<g class='clc-slide-b-graphic-man-hands'>
+						<polygon points='954.7,479.2 953.8,475.7 944.3,475.1 943.8,478.4 948.3,481.7 	'/>
+					</g>
+					<g class='clc-slide-b-graphic-man-hair'>
+						<path d='M1023.6,441.6l0.2-3.9l-8.2,0.6c0,0-5.8,2.3-7.6,5.5s0,3.5,0,3.5l4.7,0.5'/>
+					</g>
+					<g class='clc-slide-b-graphic-man-head'>
+						<polygon points='1012.2,447.1 1018.2,458.6 1021.8,457.6 1028.3,452.8 1023.2,444.3 1023.6,441.6 1019.8,441.6 
+							1012.2,445.7 	'/>
+					</g>
+					<g class='clc-slide-b-graphic-man-nose'>
+						<polygon points='1021.6,445.4 1025.4,450.4 1023.5,451.6 1020.7,446.2 	'/>
+					</g>
+					<g class='clc-slide-b-graphic-man-tie'>
+						<polygon points='1020.3,459.3 1020.3,462.4 1023.4,463.8 1023.8,460.9 	'/>
+						<polygon class='clc-slide-b-graphic-man-tie-end' points='1032.9,484.7 1035.9,485.1 1035.6,480.6 1023.8,463.4 1023.5,463.2 1023.4,463.8 	'/>
+					</g>
+				</svg>
+				<div class='clc-slide-b-message'>Data is hard.</div>
+			</div>
+
+			<div class='clc-slide clc-slide-d'>
+				<img class='clc-slide-d-background' src='assets/img/windows.svg' />
+				<div class='clc-slide-d-background-light'></div>
+				<img class='clc-slide-d-slouch' src='assets/img/slouch.svg' />
+				<svg version='1.1' class='clc-slide-d-slouch' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' viewBox='0 0 149.2 127.4'>
+					<defs>
+						<linearGradient id="MyGradient" x1="0%" y1="60%" x2="100%" y2="40%">
+							<stop offset="0%" stop-color="#F0FFFE" stop-opacity='.4'/>
+							<stop offset="100%" stop-color="#F0FFFE" stop-opacity='0'/>
+						</linearGradient>
+					</defs>
+					<g class='clc-slide-d-slouch-laptop-screen'>
+						<polygon points='5.8,72.3 7.9,71.7 7.3,69.2 2.3,46.4 0,46.9 	'/>
+						<path d='M8.8,70.3h0.8c-0.2-1.2-1-1.9-2.4-2L7.3,69C8.1,69.1,8.6,69.4,8.8,70.3z'/>
+					</g>
+					<g class='clc-slide-d-slouch-laptop-board'>
+						<rect x='8.1' y='70.3' width='27.3' height='2.1'/>
+					</g>
+					<g class='clc-slide-d-slouch-head'>
+						<polygon points='47.9,63.3 35.1,61.2 33.3,68.7 39.3,70.6 47.3,65.7 	'/>
+						<path d='M37.3,61.4c-0.3-0.8-0.5-1.7,0.6-2.1c0.9-0.3,2.1,1.2,2.4,2.5L37.3,61.4z'/>
+					</g>
+					<g class='clc-slide-d-slouch-head-shading'>
+						<path d='M44.4,66.7l0.3-1.2l-8.4-3c0.7,2.3,0,4.4-1.8,6.3l-0.6-0.3c1.1-2,1-4.4,1.2-7.6l8.3,1.8l1.2,0.5
+							c0.6,1.1,0.9,2.1,0.7,3L44.4,66.7z'/>
+						<polygon points='34.9,69.1 36.4,69.1 37.2,66.7 40.6,67.8 40.3,68.3 37.5,67.4 36.9,69.1 39.1,69.1 37.2,70.1 
+							34.8,69.3 	'/>
+					</g>
+					<g class='clc-slide-d-slouch-neck'>
+						<path d='M48,63.1l-5.4-0.5c1.8,0.5,2.6,1.6,2.5,3.5l1.5-0.5L48,63.1z'/>
+					</g>
+					<g class='clc-slide-d-slouch-hair'>
+						<path d='M42.3,62.6c-0.7-0.8-1.8-1.6-2.5-1.8c0,0.2,0,0.4-0.1,0.5c-0.8,0.2-1.6,0-2.6-0.4c-0.1-0.3-0.1-0.7,0-1
+							c-1.4-0.4-2.8-0.6-4.1-0.5c-2.6,1.3-2.2,4.4-2.2,8.4l1.1,0.4l1.6,0.6c1.3-0.9,1.9-3.1,1.6-7.2L42.3,62.6z'/>
+					</g>
+					<g class='clc-slide-d-slouch-hair-shading'>
+						<path d='M42.3,62.6c-0.7-0.8-1.8-1.6-2.5-1.8c0,0.2,0,0.4-0.1,0.5c-0.8,0.2-1.6,0-2.6-0.4l0.2,0.1
+							c-1.3-0.2-2.5-0.3-3.8-0.3c1,0.9,1.4,6.1-1.4,6.4L32,68.3l1.5,0.5c1.3-0.9,1.9-3.1,1.6-7.2L42.3,62.6z'/>
+						<path d='M33,60.4c1.5,0,2.9,0.1,4,0.2l0.1,0.4c-0.1-0.3-0.1-0.7,0-1c-1.4-0.4-2.8-0.6-4.1-0.5
+							c-2.6,1.3-2.2,4.4-2.2,8.4l1.1,0.4l0,0L31.2,68C31.3,65,30.8,61.5,33,60.4z'/>
+					</g>
+					<g class='clc-slide-d-slouch-table'>
+						<polygon points='6.6,72.3 6.6,75.7 64.9,75.7 64.9,72.3 	'/>
+					</g>
+					<g class='clc-slide-d-slouch-hand-a'>
+						<path d='M19.6,66.9c-0.1-0.1-2.3-0.1-2.3-0.1c0,0.1-4.7,1.7-4.6,1.8c-0.1,0.5-0.3,1.1-0.3,1.7h7.3L19.6,66.9z'/>
+					</g>
+					<g class='clc-slide-d-slouch-suit'>
+						<path d='M19.4,66.6v3.7h10.9l0.2,1.7l7.9,3.7l10.1-3.4h16.8l6.9,7.9l-19.6,8.4l2.9,33.4c-4.9,2-10,2.7-8.7,5.4
+							l12.9-0.5L61,94.4l26.7,0.1L90,82.9l-3-5.2l4.1-2.7L73,62.3l-23.2-3.4l-2.4,4c-0.3-0.1-0.6,0-0.8,0.1c0.3,0.1,0.6,0.1,0.6,0.3
+							c-0.3,0.2-1,1.4-1.6,2.4l-8.4,4.2L30,67.4l0,0.1l0.2,0.1l-2.9-0.5L19.4,66.6z'/>
+					</g>
+					<g class='clc-slide-d-slouch-suit-shading'>
+						<path d='M57.1,122.3l-1.6-0.3l-2.9-33.4l19.6-8.4l3.8,4.5l4.2-2.7l6.3,3.6l-31.7,3.6C55.7,97.4,56.4,109.4,57.1,122.3z'/>
+						<polygon points='75.8,82.7 88.6,74.8 72.4,63.3 51.7,60.8 49.7,63.8 37.3,69.8 30.1,67.3 30,67.5 30.1,67.6 30.4,70.9 
+							38.2,71.6 38.1,73.5 50.8,69.7 51.5,69.7 52.6,65.8 52,62.5 55.8,69.8 53.6,70.9 55.3,71.6 65.4,71.3 	'/>
+					</g>
+					<g class='clc-slide-d-slouch-table-legs'>
+						<path d='M62.5,126.1V75.6h-3.4v50.8C59.9,127.5,62.2,127.3,62.5,126.1z'/>
+						<path d='M13.5,126.3l0-50.7h-3.5l0,50.7C10.8,127.3,12.9,127.5,13.5,126.3z'/>
+					</g>
+					<g class='clc-slide-d-slouch-hand-b'>
+						<path d='M30.5,71.6c-0.6,0.1-1.8,0-5.2-0.7c-0.1-1.1-0.1-2.1,0-3.1c0.2-0.4,1.7-0.6,3.4-0.8c0.6,0.1,1.1,0.3,1.5,0.5
+							C30.4,68.4,30.4,70,30.5,71.6z'/>
+					</g>
+					<g class='clc-slide-d-slouch-chair'>
+						<polygon points='63.2,94.4 63.2,97.9 98.2,97.9 100.2,97.9 100.2,94.4 	'/>
+					</g>
+					<g class='clc-slide-d-slouch-chair-legs'>
+						<path d='M98.1,126l0-28.1h-3.6l0.1,28.1C94.9,127.2,97.7,127.5,98.1,126z'/>
+						<path d='M68.4,126l0-28.2H65l0,28.2C65.5,127.3,68,127.4,68.4,126z'/>
+					</g>
+					<g class='clc-slide-d-slouch-laptop-light'>
+						<polygon fill='url(#MyGradient)' points='3.3,46.4 136.2,0 149.2,60.6 8.1,67.1 	'/>
+					</g>
+				</svg>
+				<div class='clc-slide-d-message-a'>Countless hours, compromises, and headaches.</div>
+				<div class='clc-slide-d-message-b'>We've all been there before.</div>
+			</div>
+
+			<div class='clc-slide clc-slide-f'>
+				<div class='clc-slide-f-message-a'>But why can't discovering data be fun?</div>
+				<div class='clc-slide-f-message-b'>Or exploring data excite the imagination?</div>
+				<div class='clc-slide-f-sky'>
+					<canvas class='clc-slide-f-sky-canvas'></canvas>
+					<div class='clc-slide-f-sky-light'></div>
+				</div>
+				<div class='clc-slide-f-mountains-wrapper'>
+					<img class='clc-slide-f-mountains' src='assets/img/mountains.png' />
+				</div>
+				<img class='clc-slide-f-wandering-man' src='assets/img/wandering-man.svg' />
+			</div>
+
+			<div class='clc-slide clc-slide-g'>
+				<div class='clc-slide-g-message'>Shouldn't getting data be simpler?</div>
+				<img class='clc-slide-g-workfloor' src='assets/img/workfloor.png' />
+				<div class='clc-slide-g-foreground-wrapper'>
+					<div class='clc-slide-g-foreground'>
+						<img class='clc-slide-g-table' src='assets/img/table.svg' />
+						<img class='clc-slide-g-pipe-shadow' src='assets/img/pipe-shadow.svg' />
+						<img class='clc-slide-g-hand' src='assets/img/hand.svg' />
+						<img class='clc-slide-g-box-shadow' src='assets/img/box-shadow.svg' />
+						<img class='clc-slide-g-box' src='assets/img/box.svg' />
+						<img class='clc-slide-g-pipe' src='assets/img/pipe.svg' />
+					</div>
+				</div>
+			</div>
+
+			<div class='cip-row cip-team'>
+				<div class='cip-row-content'>
+					<div class='cip-team-header'>
+						<div class='cip-team-header-title'>We think so.</div>
+					</div>
+					<div class='cip-team-message'>We think data and delight should go hand-in-hand.<br>Hover over our heads if you want to learn about us.</div>
+					<div class='cip-team-portrait-row'>
+						<div class='cip-team-portrait-item cip-team-portrait-item-faded'>
+							<div class='cip-team-portrait-item-visual'>
+								<div class='cip-team-portrait-item-visual-cover'></div>
+								<img class='cip-team-portrait-item-visual-image' src='assets/img/faces/bruce.svg' />
+							</div>
+						</div>
+						<div class='cip-team-portrait-item'>
+							<div class='cip-team-portrait-item-visual'>
+								<div class='cip-team-portrait-item-visual-cover'></div>
+								<img class='cip-team-portrait-item-visual-image' src='assets/img/faces/philip.svg' />
+							</div>
+							<div class='cip-team-portrait-item-name'>Philip Brittan</div>
+							<div class='cip-team-portrait-item-descriptor'>Very handsome.</div>
+						</div>
+						<div class='cip-team-portrait-item'>
+							<div class='cip-team-portrait-item-visual'>
+								<div class='cip-team-portrait-item-visual-cover'></div>
+								<img class='cip-team-portrait-item-visual-image' src='assets/img/faces/larry.svg' />
+							</div>
+							<div class='cip-team-portrait-item-name'>Larry Leibowitz</div>
+							<div class='cip-team-portrait-item-descriptor'>Very experienced.</div>
+						</div>
+						<div class='cip-team-portrait-item'>
+							<div class='cip-team-portrait-item-visual'>
+								<div class='cip-team-portrait-item-visual-cover'></div>
+								<img class='cip-team-portrait-item-visual-image' src='assets/img/faces/elizabeth.svg' />
+							</div>
+							<div class='cip-team-portrait-item-name'>Elizabeth Pritchard</div>
+							<div class='cip-team-portrait-item-descriptor'>Very smart.</div>
+						</div>
+						<div class='cip-team-portrait-item'>
+							<div class='cip-team-portrait-item-visual'>
+								<div class='cip-team-portrait-item-visual-cover'></div>
+								<img class='cip-team-portrait-item-visual-image' src='assets/img/faces/jonathan.svg' />
+							</div>
+							<div class='cip-team-portrait-item-name'>Jonathan Major</div>
+							<div class='cip-team-portrait-item-descriptor'>Majorly cool.</div>
+						</div>
+						<div class='cip-team-portrait-item cip-team-portrait-item-faded'>
+							<div class='cip-team-portrait-item-visual'>
+								<div class='cip-team-portrait-item-visual-cover'></div>
+								<img class='cip-team-portrait-item-visual-image' src='assets/img/faces/kelly.svg' />
+							</div>
+						</div>
+					</div>
+					<div class='cip-team-portrait-row'>
+						<div class='cip-team-portrait-item cip-team-portrait-item-faded'>
+							<div class='cip-team-portrait-item-visual'>
+								<div class='cip-team-portrait-item-visual-cover'></div>
+								<img class='cip-team-portrait-item-visual-image' src='assets/img/faces/wip-b.svg' />
+							</div>
+						</div>
+						<div class='cip-team-portrait-item cip-team-portrait-item-faded'>
+							<div class='cip-team-portrait-item-visual'>
+								<div class='cip-team-portrait-item-visual-cover'></div>
+								<img class='cip-team-portrait-item-visual-image' src='assets/img/faces/snehal.svg' />
+							</div>
+						</div>
+						<div class='cip-team-portrait-item'>
+							<div class='cip-team-portrait-item-visual'>
+								<div class='cip-team-portrait-item-visual-cover'></div>
+								<img class='cip-team-portrait-item-visual-image' src='assets/img/faces/ashu.svg' />
+							</div>
+							<div class='cip-team-portrait-item-name'>Ashu Sikri</div>
+							<div class='cip-team-portrait-item-descriptor'>Very strategic.</div>
+						</div>
+						<div class='cip-team-portrait-item'>
+							<div class='cip-team-portrait-item-visual'>
+								<div class='cip-team-portrait-item-visual-cover'></div>
+								<img class='cip-team-portrait-item-visual-image' src='assets/img/faces/andrew.svg' />
+							</div>
+							<div class='cip-team-portrait-item-name'>Andrew Clark</div>
+							<div class='cip-team-portrait-item-descriptor'>Very tall.</div>
+						</div>
+						<div class='cip-team-portrait-item'>
+							<div class='cip-team-portrait-item-visual'>
+								<div class='cip-team-portrait-item-visual-cover'></div>
+								<img class='cip-team-portrait-item-visual-image' src='assets/img/faces/johnette.svg' />
+							</div>
+							<div class='cip-team-portrait-item-name'>Johnette Ross</div>
+							<div class='cip-team-portrait-item-descriptor'>Very friendly.</div>
+						</div>
+						<div class='cip-team-portrait-item cip-team-portrait-item-faded'>
+							<div class='cip-team-portrait-item-visual'>
+								<div class='cip-team-portrait-item-visual-cover'></div>
+								<img class='cip-team-portrait-item-visual-image' src='assets/img/faces/dave.svg' />
+							</div>
+						</div>
+						<div class='cip-team-portrait-item cip-team-portrait-item-faded'>
+							<div class='cip-team-portrait-item-visual'>
+								<div class='cip-team-portrait-item-visual-cover'></div>
+								<img class='cip-team-portrait-item-visual-image' src='assets/img/faces/wip-a.svg' />
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class='cip-row cip-cpoints'>
+				<div class='cip-row-content'>
+					<div class='cip-cpoints-title'>We believe in useful, actionable data.</div>
+					<div class='cip-cpoints-message'>Data that's been optimized and organized the way you want it. So you can get what you need from it, quickly and easily.<br>Here's how we make it happen:</div>
+					<div class='cip-cpoints-info'>
+						<div class='cip-cpoints-info-section'>
+							<img class='cip-cpoints-info-section-graphic' src='assets/img/product-icon-c.svg' />
+							<div class='cip-cpoints-info-section-title'>MARKETPLACE</div>
+							<div class='cip-cpoints-info-section-divider'></div>
+							<div class='cip-cpoints-info-section-message'>A place to discover and acquire the valuable data you need to excel from a multitude of sources.</div>
+						</div>
+						<div class='cip-cpoints-info-section'>
+							<img class='cip-cpoints-info-section-graphic' src='assets/img/product-icon-a.svg' />
+							<div class='cip-cpoints-info-section-title'>INFORMATICS PLATFORM</div>
+							<div class='cip-cpoints-info-section-divider'></div>
+							<div class='cip-cpoints-info-section-message'>Secure and scalable environment to store, explore, and transform data so that it's ready for action.</div>
+						</div>
+						<div class='cip-cpoints-info-section'>
+							<img class='cip-cpoints-info-section-graphic' src='assets/img/product-icon-b.svg' />
+							<div class='cip-cpoints-info-section-title'>DATA ENGINEERING</div>
+							<div class='cip-cpoints-info-section-divider'></div>
+							<div class='cip-cpoints-info-section-message'>No need to worry about the tedious work of making your data useful. We'll take care of it for you.</div>
+						</div>
+					</div>
+				</div>
+				<div class='cip-row cip-ppoints'>
+				<div class='cip-row-content'>
+					<div class='cip-ppoints-title'>And exposing that data to people that matter.</div>
+					<div class='cip-ppoints-content'>
+						<div class='cip-ppoints-graphic'>
+							<img class='cip-ppoints-graphic-image' src='assets/img/producer-f-b.svg' />
+						</div>
+						<div class='cip-ppoints-info'>
+							<div class='cip-ppoints-info-message'>
+								And we want people that matter to have access to data they can use.<br><br>It's not complicated. Data-provider meeting data-consumer—we’re here to make it easier for both of you:
+							</div>
+							<div class='cip-ppoints-info-list'>
+								<div class='cip-ppoints-info-list-item'>
+									<div class='cip-ppoints-info-list-item-title'>A COMMUNITY</div>
+									<div class='cip-ppoints-info-list-item-message'>Connect directly with people who need your data. No middleman.</div>
+								</div>
+								<div class='cip-ppoints-info-list-item'>
+									<div class='cip-ppoints-info-list-item-title'>A DELIGHTFUL EXPERIENCE</div>
+									<div class='cip-ppoints-info-list-item-message'>We make your data more actionable to the people who want to get more out of it.</div>
+								</div>
+								<div class='cip-ppoints-info-list-item'>
+									<div class='cip-ppoints-info-list-item-title'>A STREAMLINED PROCESS</div>
+									<div class='cip-ppoints-info-list-item-message'>We short-circuit lengthy onboarding and evaluatio, taking the painful parts out for you.</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class='cip-row cip-cta'>
+				<div class='cip-row-content'>
+					<div class='cip-cta-bg'>
+						<img class='cip-cta-bg-graphic' src='assets/img/cta-bg.svg' />
+					</div>
+					<div class='cip-cta-message'>And we're making it happen with:</div>
+					<div class='cip-cta-logo'>
+						<svg class='cip-cta-logo-cru' xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 444 150.047">
+							<path class='cip-cta-logo-c' d="M253.305,310.695a57,57,0,1,0,0,80.61" transform="translate(-138 -275.992)" style="fill: none;stroke: #000;stroke-miterlimit: 10;stroke-width: 36px"/>
+							<path class='cip-cta-logo-r-1' d="M317.843,426l.291-131.995,48.146.035a35.247,35.247,0,0,1,0,70.494l-48.023-.035" transform="translate(-138 -275.992)" style="fill: none;stroke: #000;stroke-miterlimit: 10;stroke-width: 36px"/>
+							<line class='cip-cta-logo-r-2' x1="226.958" y1="88.539" x2="265.715" y2="158.708" style="fill: none;stroke: #000;stroke-miterlimit: 10;stroke-width: 36px"/>
+							<path class='cip-cta-logo-u' d="M472,294v67.958C472,383.817,487.125,408,518,408s46-24.183,46-46.042V294" transform="translate(-138 -275.992)" style="fill: none;stroke: #000;stroke-linecap: square;stroke-miterlimit: 10;stroke-width: 36px"/>
+						</svg>
+						<div class='cip-cta-logo-x'>
+							<div class='cip-cta-logo-x-1'>
+								<div class='cip-cta-logo-x-1-fill'></div>
+								<!-- <div class='cip-cta-logo-x-1-cover'></div> -->
+							</div>
+							<div class='cip-cta-logo-x-2'>
+								<div class='cip-cta-logo-x-2-fill'></div>
+								<!-- <div class='cip-cta-logo-x-2-cover'></div> -->
+							</div>
+						</div>
+					</div>
+					<div class='cip-cta-try-button'>
+						<div class='cip-cta-try-button-text'>GET STARTED</div>
+						<!-- <div class='cip-cta-try-button-cover'></div> -->
+					</div>
+					<div class='cip-cta-talk-button'>
+						<div class='cip-cta-talk-button-text'>LET'S TALK</div>
+						<!-- <div class='cip-cta-talk-button-cover'></div> -->
+					</div>
+				</div>
+			</div>
+			<div class='cip-row cip-footer'>
+				<div class='cip-row-content'>
+					<div class='cip-footer-whitepaper'>
+						<div class='cip-footer-whitepaper-content'>
+							<div class='cip-footer-whitepaper-box'></div>
+							<img class='cip-footer-whitepaper-icon' src='assets/img/pdf-icon.svg' />
+							<div class='cip-footer-whitepaper-text'>Download Our<br>Whitepaper</div>
+						</div>
+						<!-- <div class='cip-footer-whitepaper-cover'></div> -->
+					</div>
+					<div class='cip-footer-social'>
+						<img class='cip-footer-social-button' src='assets/img/social-icon-linkedin.svg'/>
+						<img class='cip-footer-social-button' src='assets/img/social-icon-twitter.svg'/>
+						<img class='cip-footer-social-button' src='assets/img/social-icon-github.svg'/>
+						<img class='cip-footer-social-button' src='assets/img/social-icon-google-plus.svg'/>
+					</div>
+					<div class='cip-footer-bottom'>
+						<div class='cip-footer-copyright'>© 2017 Crux | Crux Informatics Inc. All Rights Reserved.</div>
+						<img class='cip-footer-logo' src='assets/img/logo-white.svg' />
+					</div>
+				</div>
+			</div>
+		</div>
+		<iframe id='dummy-w2l-target' name='dummy-w2l-target' src='about:blank' style='display:none'></iframe>
+	</body>
+
+	<!-- TypeKit -->
+
+	<script src='https://use.typekit.net/aox0hnc.js'></script>
+	<script>try{Typekit.load({ async: true });}catch(e){}</script>
+	<script src='assets/js/jquery/jquery-3.2.1.min.js'></script>
+	<script src='assets/js/gsap/TweenMax.min.js'></script>
+	<script src='assets/js/gsap/ScrollToPlugin.min.js'></script>
+	<script src='assets/js/gsap/jquery.gsap.min.js'></script>
+	<script src='assets/js/gsap/DrawSVGPlugin.min.js'></script>
+	<script src='assets/js/gsap/CustomEase.min.js'></script>
+	<script src='assets/js/gsap/BezierPlugin.min.js'></script>
+	<script src='assets/js/underscore-min.js'></script>
+	<script src='assets/js/mo.min.js'></script>
+	<script src='assets/js/main.js'></script>
+</html>

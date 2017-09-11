@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 76 74.812">
+  <defs>
+    <style>
+      .a, .d {
+        fill: #cf3a3f;
+      }
+
+      .b {
+        fill: #fef9ef;
+      }
+
+      .c {
+        fill: #e64046;
+      }
+
+      .c, .d {
+        fill-rule: evenodd;
+      }
+
+      .e {
+        fill: #ed1c24;
+      }
+
+      .f {
+        fill: none;
+        stroke: #000;
+        stroke-miterlimit: 10;
+        stroke-width: 2.3px;
+      }
+    </style>
+  </defs>
+  <title>email</title>
+  <g>
+    <path class="a" d="M40.66.823a4.711,4.711,0,0,0-5.32,0L0,27.322v47.49H76V27.322Z" transform="translate(0 0)"/>
+    <rect class="b" x="10" y="11.406" width="56" height="42"/>
+    <path class="c" d="M0,74.812V27.322l2.85,1.425S37.062,53.9,38,53.917c.99.015,35.15-25.17,35.15-25.17L76,27.322v47.49Z" transform="translate(0 0)"/>
+    <path class="d" d="M40.66,48.313a4.712,4.712,0,0,0-5.32,0L0,74.812H76Z" transform="translate(0 0)"/>
+  </g>
+  <g>
+    <polygon class="e" points="28.792 24.271 27.223 22.702 24.172 25.753 21.121 22.702 19.552 24.271 22.603 27.322 19.552 30.373 21.121 31.942 24.172 28.891 27.223 31.942 28.792 30.373 25.741 27.322 28.792 24.271"/>
+    <polygon class="e" points="48.042 24.271 46.473 22.702 43.422 25.753 40.371 22.702 38.802 24.271 41.853 27.322 38.802 30.373 40.371 31.942 43.422 28.891 46.473 31.942 48.042 30.373 44.991 27.322 48.042 24.271"/>
+    <circle class="f" cx="33.826" cy="27.322" r="3.474"/>
+    <circle class="f" cx="52.974" cy="27.322" r="3.474"/>
+  </g>
+</svg>
